@@ -3,7 +3,6 @@ import {
   getAuth,
   GoogleAuthProvider,
   signInWithPopup,
-  signInWithEmailAndPassword,
   createUserWithEmailAndPassword,
 } from "firebase/auth";
 import { useNavigate } from "react-router-dom";

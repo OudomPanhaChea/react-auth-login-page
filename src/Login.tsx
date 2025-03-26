@@ -97,6 +97,8 @@ function Login() {
 
           {/* button login with google */}
           <button
+            onClick={signInWithGoogle}
+            disabled={authing}
             className="w-full bg-white text-black font-semibold rounded-md p-4 text-center flex items-center justify-center cursor-pointer mt-7"
           >
             login with Google
@@ -108,7 +110,7 @@ function Login() {
           <p className="text-sm font-normal text-gray-400">
             Don't you have an account? 
             <span className='font-semibold text-white cursor-pointer underline ml-2'>
-              <a href='/signup'>Sign Up</a>
+              <a href='/react-auth-login-page/signup'>Sign Up</a>
             </span>
           </p>
         </div>
